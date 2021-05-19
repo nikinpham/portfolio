@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {  Suspense } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Tận đẹp trai vô địch
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Switch, Route } from 'react-router';
+import { BrowserRouter } from "react-router-dom";
+// import MenuTop from './components/menuTop/Menu';
+import HomePage from './pages/HomePage';
+// import PageTest from './pages/PageTest';
+
+class App extends React.Component {
+  render() {
+    return (
+      <BrowserRouter>
+        {/* <MenuTop /> */}
+        <Switch>
+          <Suspense fallback={<div>Loading...</div>}>
+            <Route exact path="/" component={HomePage} />
+            {/* <Route path="/pagetest" component={PageTest} /> */}
+          </Suspense>
+        </Switch>
+      </BrowserRouter>
+    )
+  }
 }
-
 export default App;
