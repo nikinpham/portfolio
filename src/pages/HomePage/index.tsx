@@ -33,7 +33,7 @@ function HomePage() {
           </div>
         </Col>
         <Col>
-          <p>Test build</p>
+          <p>Test build version 2</p>
         </Col>
       </Row>
     </Container>
