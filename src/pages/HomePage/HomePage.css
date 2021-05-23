@@ -1,0 +1,50 @@
+.main {
+    background: white;
+    color: #050505;
+    height: 80vh;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.person-avatar {
+    width: 30vw;
+    height: 90vh;
+    position: relative;
+    top: -5vh;
+    -webkit-box-shadow: 0 32px 84px 0 rgb(0 0 0 / 50%);
+    box-shadow: 0 32px 84px 0 rgb(0 0 0 / 50%);
+    background: url('./../../assets/img/personAvatar.jpg');
+    background-size: cover;
+    background-position: 40% 10%;
+}
+
+.person-name {
+    color: white;
+}
+
+.person-title {
+    color: rgb(255, 162, 162);
+}
+
+.nav-custom {
+    width: 80px;
+    height: 80vh;
+}
+
+.nav-group-1 {
+    background: goldenrod;
+}
+
+.nav-collapse {
+    height: 80px;
+}
+
+.nav-group-2 {
+    background: red
+}
+
+.nav-group-3 {
+    background: gold
+}

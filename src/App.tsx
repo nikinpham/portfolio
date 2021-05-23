@@ -1,4 +1,4 @@
-import React, {  Suspense } from 'react';
+import React, { Suspense } from 'react';
 
 import { Switch, Route } from 'react-router';
 import { BrowserRouter } from "react-router-dom";
