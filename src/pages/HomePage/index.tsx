@@ -33,7 +33,7 @@ function HomePage() {
           </div>
         </Col>
         <Col>
-          <p>Footer</p>
+          <p>Test build</p>
         </Col>
       </Row>
     </Container>
